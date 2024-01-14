@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Tambahkan CSS untuk menyesuaikan ukuran dan bentuk logo */
+/* Tambahkan CSS untuk menyesuaikan ukuran dan bentuk logo */
+.logo-container {
+    text-align: center; /* Menengahkan elemen dalam .logo-container */
+    margin: 20px auto; /* Menengahkan logo dengan margin otomatis dan memberikan jarak atas-bawah */
+}
+
+.logo-container img {
+    max-height: 300px;
+    border-radius: 50%; /* Mengubah bentuk logo menjadi bulat */
+    margin-bottom: 10px; /* Jarak antara logo dan teks selamat datang */
+}
+
+/* Tambahkan CSS untuk menempatkan teks selamat datang di bawah logo */
+.logo-container h1 {
+    margin: 0;
+    color: #fff;
+}
+
+/* ... (CSS lainnya) ... */
+
+
+/* ... (CSS lainnya) ... */
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Sesuaikan gaya untuk section dan grid */
+section {
+    margin-bottom: 30px;
+}
+
+.photo-grid,
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+/* Tambahkan CSS untuk memberi efek hover pada foto dan video */
+.photo-grid img,
+.video-grid video {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo-grid img:hover,
+.video-grid video:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ... (CSS lainnya) ... */
